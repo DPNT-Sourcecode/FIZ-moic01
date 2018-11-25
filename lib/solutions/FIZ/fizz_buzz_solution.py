@@ -1,6 +1,7 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
 	dlx1=number>10
+	dlx2=True
 	ns=str(number)
 	fr=ns[0]
 	for i in ns[1:]:
