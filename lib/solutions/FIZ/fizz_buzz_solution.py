@@ -4,7 +4,7 @@ def fizz_buzz(number):
 	ns=str(number)
 	fr=ns[0]
 	for i in ns[1:]:
-		if i!=fr:
+		if i != fr:
 			dlx2=False
 			break
 	div3=number%3==0
