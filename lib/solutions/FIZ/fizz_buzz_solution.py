@@ -7,5 +7,5 @@ def fizz_buzz(number):
 	elif number%5==0:
 		print "buzz"
 	else:
-		print number
+		print str(number)
     #raise NotImplementedError()
