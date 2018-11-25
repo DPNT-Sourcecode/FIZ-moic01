@@ -1,6 +1,6 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
-    isOdd=number%2==0
+    isOdd=number%2!=0
     dlx1=number>10
     dlx2=True
     ns=str(number)
@@ -36,7 +36,7 @@ def fizz_buzz(number):
             return "buzz deluxe"
         else:
             return "buzz"
-    elif dlx:
+    elif dlx3:
         if isOdd:
             return "fake deluxe"
         else:
