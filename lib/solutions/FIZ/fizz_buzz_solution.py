@@ -1,8 +1,8 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
     isOdd=number%2!=0
-    dlx1=number>10
-    dlx2=True
+    #dlx1=number>10
+    #dlx2=True
     ns=str(number)
     fr=ns[0]
     for i in ns[1:]:
@@ -11,10 +11,10 @@ def fizz_buzz(number):
             break
     div3=number%3==0
     div5=number%5==0
-    dlx3= dlx1 and dlx2
-    dlx= dlx3 and isOdd
+    dlx3=((div3 and in3) or (div5 and in5)) #this my delux
+    dlx= dlx3 and isOdd #this is fake delux
     in3=str(3) in str(number)
-    in5=str(5) in str(number)
+    in5=str(5) in str(number) 
     if (div3 or in3) and (div5 or in5):
         if dlx:
             return "fizz buzz fake deluxe"
