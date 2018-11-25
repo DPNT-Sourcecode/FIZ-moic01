@@ -15,19 +15,19 @@ def fizz_buzz(number):
 	in5=str(5) in str(number)	
 	if (div3 or in3) and (div5 or in5):
 		if dlx:
-			return "fizz buzz deluxe"
+		   return "fizz buzz deluxe"
 		else:
-			return "fizz buzz"
+		   return "fizz buzz"
 	elif div3 or in3:
 	    if dlx:
-		   return "fizz deluxe"
+		  return "fizz deluxe"
 		else:
-		   return "fizz"
+		  return "fizz"
 	elif div5 or in5:
 	    if dlx:
-		   return "buzz deluxe"
+		  return "buzz deluxe"
 		else:
-		   return "buzz"
+		  return "buzz"
 	elif dlx:
 		return "deluxe"
 	else:
